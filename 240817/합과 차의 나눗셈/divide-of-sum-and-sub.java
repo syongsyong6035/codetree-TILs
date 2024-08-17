@@ -10,6 +10,6 @@ public class Main {
         }
         double su = (a+b)/(a-b);
         
-        System.out.println(Math.round(su*100)/100.0);
+        System.out.println(Math.ceil(su*100)/100.0);
     }
 }
