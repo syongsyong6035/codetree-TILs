@@ -11,7 +11,7 @@ public class Main {
         int result;
         int su = b.replace("a","").length();
 
-        if(a / 2 > su){
+        if(a / 2 >= su){
             if(!b.isEmpty() && b.charAt(0) == 'a'){  
                 result = su - 1;
             } else {
